@@ -1,0 +1,154 @@
+.main{
+    margin: 0 auto;
+    width: 610px;
+    height: 610px;
+    border: 3px;
+    border-style: solid;
+}
+
+.box-main{
+    margin: 3px auto;
+    border: 3px;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    position: relative;
+}
+.box-left-top{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.box-small-white{
+    border-right: 3px;
+    border-bottom: 3px;
+    width: 147px;
+    height: 147px;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-samll-pink{
+
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    background-color: violet;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box-samll-pink2{
+    border-bottom: 3px;
+    
+    width: 150px;
+    height: 147px;
+    border-style: solid;
+    background-color: violet;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+.box-right-top{
+    width: 300px;
+    height: 300px;
+    float: right;
+    position: relative;
+}
+.box-rectangle{
+    width: 300px;
+    height: 150px;
+    background-color: black;
+}
+.box-skyblue{
+    border-bottom: 3px;
+    border-style: solid;
+    background-color: skyblue;
+    height: 147px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-blue{
+    border: 3px;
+    border-style: solid;
+    width: 144px;
+    height: 144px;
+    background-color: blue;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    z-index: 2;
+}
+.box-center-greenyellow{
+    border: 3px;
+    border-style: solid;
+    width: 297px;
+    height: 297px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: greenyellow;
+    z-index: 1;
+}
+.box-center-greenyellow .box-center-red{
+    border-top: 3px;
+    border-right: 3px;
+    border-style: solid;
+    width: 147px;
+    height: 147px;
+    background-color: red;
+    position: absolute;
+    top: 25%;
+}
+.box-center-greenyellow .box-center-white{
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    width: 147px;
+    height: 147px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    z-index: 2;
+}
+.box-right-bottom{
+    border-left: 3px;
+    border-style: solid;
+    background-color: yellow;
+    width: 297px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.box-left-bottom{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.box-left-bottom .box-center-white{
+    border-top: 3px;
+    border-left: 3px;
+    border-bottom: 3px;
+    width: 150px;
+    height: 147px;
+    border-style: solid;
+    background-color: white;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    z-index: 2;
+}
